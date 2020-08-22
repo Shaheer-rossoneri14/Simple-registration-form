@@ -1,0 +1,137 @@
+<html>
+<head>
+<title>MSME Registration Form</title>
+<style>
+   
+h2{
+ font-family: Arial; 
+ font-size: 24px;     
+ font-style: normal; 
+ font-weight: bold; 
+ color: red;
+ text-align: center; 
+ text-decoration: underline
+}
+table{
+ font-family: Arial; 
+ color:white; 
+ font-size: 16px; 
+ font-style: normal;
+ font-weight: bold;
+ background: black;  
+
+  
+}
+table.inner{
+ border: 10px
+}
+input[type=text], input[type=email], input[type=number]{
+ width: 50%;
+ padding: 6px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+input[type=submit], input[type=reset]{
+ width: 15%;
+ padding: 8px 12px;
+ margin: 5px 0;
+ box-sizing: border-box;
+}
+</style>
+</head>
+<body>
+<h2>MSME Registration Form</h3>
+<table align="center" cellpadding = "10">
+
+<tr>
+<td>Company Name</td>
+<td><input type="text" name="Company Name" maxlength="100" placeholder="Company Name" />
+</td>
+</tr>
+
+<tr>
+<td>Sector</td>
+<td><input type="text" name="Sector" placeholder="Sector"/>
+
+</td>
+</tr>
+
+<tr>
+<td>Company mail ID</td>
+<td><input type="email" name="EmailID" maxlength="100" placeholder="Company Mail Id"/></td>
+</tr>
+
+<tr>
+<td>Contact Number</td>
+<td><input type="Contact" name="Contact Number" maxlength="10" placeholder="Contact Number"/></td>
+</tr>
+
+<tr>
+<td>Udyog Aadhar</td>
+<td>
+<input type="text" name="Udyog Aadhar" maxlength="12" placeholder="1213xxxxxxxx"/>
+(12 Digits Allowed)
+</td>
+</tr>
+
+<tr>
+<td>Type</td>
+<td>
+<input type="radio" name="Type" value="Micro" />
+Micro
+<input type="radio" name="Type" value="Small" />
+Small
+<input type="radio" name="Type" value="Mini" />
+Mini
+</td>
+</tr>
+
+<tr>
+<td>Address<br /><br /><br /></td>
+<td><textarea name="Address" rows="10" cols="50"></textarea></td>
+</tr>
+
+<tr>
+<td>City</td>
+<td><input type="text" name="City" placeholder="City name"/>
+</td>
+</tr>
+
+<tr>
+<td>Pin Code</td>
+<td><input type="Number" name="PinCode" placeholder="Pin Code"/>
+</td>
+</tr>
+
+<tr>
+<td>State</td>
+<td><input type="text" name="State" placeholder="State"/>
+</td>
+</tr>
+
+<tr>
+<td>Password</td>
+<td><input type="text" name="Password" minlength="8" placeholder="Password"/>
+(Minimum 8 characters long)
+</td>
+</tr>
+
+<tr>
+<td>Confirm Password</td>
+<td><input type="text" name="Password" minlength="8" placeholder="Confirm Password"/>
+(Confirm password)
+</td>
+</tr>
+
+
+
+<tr>
+<td colspan="2" align="center">
+<input type="submit" value="Submit">
+<input type="reset" value="Reset">
+</td>
+</tr>
+</table>
+</form>
+</body>
+</html>
